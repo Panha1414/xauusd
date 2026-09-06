@@ -1,0 +1,1281 @@
+[
+  {
+    "id": "sig_1788521115442_16gq",
+    "symbol": "XAUUSD",
+    "timeframe": "5m",
+    "action": "BUY",
+    "orderType": "BUY_LIMIT",
+    "timestamp": 1788521115442,
+    "candleTime": 1788521115,
+    "entryPrice": 4465.24,
+    "limitPrice": 4467.22,
+    "tp1": 4480.84,
+    "tp2": 4499.04,
+    "sl": 4448.34,
+    "initialSl": 4450.32,
+    "riskRewardRatio": "1:2.8",
+    "confidence": 92,
+    "strategy": "SMC Institutional BUY LIMIT • Discount Demand Retrace",
+    "confluences": [
+      "🎯 BUY LIMIT Execution at Institutional Liquidity Level ($4467.22)",
+      "🛡️ Anti-SL Buffer: 2.6x ATR ($16.90 buffer) safely under liquidity sweep pool",
+      "🔒 Auto-Breakeven Protection: Stop loss automatically moves to entry upon +50% target",
+      "1H Macro Trend: Institutional Bullish Order Flow (Price > EMA50)",
+      "15M Structure: Bullish Break of Structure (BOS) Confirmed",
+      "5M Execution: SMC Liquidity Sweep of previous swing low with wick pinbar",
+      "⚡ ORDER ACTIVATED: Manual confirmation executed at $4465.24"
+    ],
+    "status": "ACTIVE",
+    "mtfAnalysis": {
+      "h1": {
+        "timeframe": "1h",
+        "trend": "BULLISH",
+        "price": 4469.62,
+        "ema20": 4447.39,
+        "ema50": 4443.89,
+        "ema200": 4469.62,
+        "rsi": 91.2,
+        "macdHistogram": 3.121,
+        "smcBias": "NEUTRAL",
+        "structure": "Strong Bullish Expansion (Price > EMA20 > EMA50)"
+      },
+      "m15": {
+        "timeframe": "15m",
+        "trend": "BULLISH",
+        "price": 4469.62,
+        "ema20": 4448.4,
+        "ema50": 4444.27,
+        "ema200": 4469.62,
+        "rsi": 90.89,
+        "macdHistogram": 3.119,
+        "smcBias": "NEUTRAL",
+        "structure": "Strong Bullish Expansion (Price > EMA20 > EMA50)"
+      },
+      "m5": {
+        "timeframe": "5m",
+        "trend": "BULLISH",
+        "price": 4469.62,
+        "ema20": 4441.97,
+        "ema50": 4437.16,
+        "ema200": 4469.62,
+        "rsi": 93.53,
+        "macdHistogram": 3.6,
+        "smcBias": "NEUTRAL",
+        "structure": "Strong Bullish Expansion (Price > EMA20 > EMA50)"
+      },
+      "confluenceStatus": "FULL_ALIGNMENT",
+      "alignedBias": "STRONG_BUY",
+      "confluenceScore": 96,
+      "confluences": [
+        "1H Macro Trend: Institutional Bullish Order Flow (Price > EMA50)",
+        "15M Structure: Bullish Break of Structure (BOS) Confirmed",
+        "5M Execution: Synchronized Precision Entry in direction of 1H Trend"
+      ]
+    },
+    "committeeConsensus": {
+      "action": "STRONG_BUY",
+      "score": 98,
+      "unanimous": true,
+      "voteBreakdown": {
+        "buy": 4,
+        "sell": 0,
+        "hold": 0
+      },
+      "executiveSummary": "សេចក្តីសម្រេចជាឯកច្ឆន្ទ/សំឡេងភាគច្រើនដាច់ខាតពីក្រុម AI ទាំង ៤៖ អនុម័តទិសដៅ BUY លើ XAU/USD ដោយឆ្លងកាត់ការត្រួតពិនិត្យអន្ទាក់ទីផ្សារ 100% ស្អាតស្អំ (SMC, Momentum, Macro DXY)។",
+      "invalidationPrice": 4463.12,
+      "expectedRiskReward": "1:3.2",
+      "timestamp": 1788521115445,
+      "members": [
+        {
+          "id": "smc_ghost",
+          "name": "Agent SMC-Ghost",
+          "roleKhmer": "អ្នកជំនាញ Smart Money & Liquidity (ICT)",
+          "roleEnglish": "SMC Order Flow & Liquidity Architect",
+          "iconType": "smc",
+          "verdict": "BUY",
+          "confidence": 96,
+          "reasoning": "រចនាសម្ព័ន្ធស្ថាប័នបង្កើត Bullish Liquidity Sweep ក្រោម Previous Low រួចរាល់។ កំពុងស្រូបទាញ Liquidity នៅ Discount Zone ($4466.82) ឆ្ពោះទៅកាន់ Unmitigated FVG ខាងលើ។",
+          "keyMetric": "FVG Fill: $4478.12 | Discount Sweep: +$14.20",
+          "status": "AGREED",
+          "trapAssessment": "✅ គ្មានអន្ទាក់ - រចនាសម្ព័ន្ធទិញរបស់ស្ថាប័នពិតប្រាកដ",
+          "safeToEnter": true,
+          "scanningStatus": {
+            "isScanning": true,
+            "activeTargetKhmer": "កំពុងស្កេន 5M/15M Liquidity Pools, Order Blocks & FVG Imbalance",
+            "metricsProcessed": "14 Swings Analyzed • 3 Order Blocks Mapped",
+            "lastScanTime": 1788521115445,
+            "activityLevel": "HIGH"
+          }
+        },
+        {
+          "id": "quant_pulse",
+          "name": "Agent Quant-Pulse",
+          "roleKhmer": "អ្នកជំនាញគណិតសាស្ត្របរិមាណ & Momentum",
+          "roleEnglish": "Quantitative & Momentum Mathematician",
+          "iconType": "quant",
+          "verdict": "BUY",
+          "confidence": 82,
+          "reasoning": "ក្បួនដង្ហើម EMA Ribbon (20 > 50) កំពុងពង្រីកមុំឡើងលើ (Slope +28°)។ MACD Histogram បង្ហាញ Momentum Velocity កើនឡើង ស្របពេល RSI ស្ថិតក្នុងតំបន់សកម្មភាពរឹងមាំ (93.5)។",
+          "keyMetric": "EMA20: $4441.97 | MACD Hist: +3.60 | RSI: 93.5",
+          "status": "AGREED",
+          "trapAssessment": "✅ Momentum ពិតប្រាកដ - គ្មានសញ្ញា Divergence",
+          "safeToEnter": true,
+          "scanningStatus": {
+            "isScanning": true,
+            "activeTargetKhmer": "កំពុងវាស់ Volume Delta, RSI Divergence & Dynamic EMA 20/50 Ribbon",
+            "metricsProcessed": "Vol Delta: Active • ATR Volatility: ±$6.70",
+            "lastScanTime": 1788521115445,
+            "activityLevel": "EXTREME"
+          }
+        },
+        {
+          "id": "macro_aegis",
+          "name": "Agent Macro-Aegis",
+          "roleKhmer": "អ្នកវិភាគម៉ាក្រូសេដ្ឋកិច្ច & សន្ទស្សន៍ DXY / Yields",
+          "roleEnglish": "Macro Intermarket & DXY Strategist",
+          "iconType": "macro",
+          "verdict": "BUY",
+          "confidence": 93,
+          "reasoning": "សន្ទស្សន៍ប្រាក់ដុល្លារ DXY កំពុងរងសម្ពាធធ្លាក់ចុះនៅ Resistance 104.20 ខណៈ US 10-Year Real Yields ធ្លាក់ចុះ 4 bps។ តម្រូវការទិញមាសបម្រុងពីធនាគារកណ្តាល និង Safe-Haven Flows ជួយគាំទ្រតម្លៃ XAUUSD យ៉ាងរឹងមាំ។",
+          "keyMetric": "DXY Index: 103.85 (-0.32%) | US 10Y Yield: 4.18% (-0.05%)",
+          "status": "AGREED",
+          "trapAssessment": "✅ DXY ធ្លាក់ចុះគាំទ្រមាសឡើង - គ្មាន Macro Trap",
+          "safeToEnter": true,
+          "scanningStatus": {
+            "isScanning": true,
+            "activeTargetKhmer": "កំពុងតាមដាន Forex Factory Economic Calendar & DXY Dollar Index",
+            "metricsProcessed": "DXY Correlation: Active • Fed Yield Curve: Synchronized",
+            "lastScanTime": 1788521115445,
+            "activityLevel": "NORMAL"
+          }
+        },
+        {
+          "id": "risk_vanguard",
+          "name": "Agent Risk-Vanguard",
+          "roleKhmer": "ប្រធានគ្រប់គ្រងហានិភ័យ & កាត់សេចក្តី (Risk Arbiter)",
+          "roleEnglish": "Chief Risk Officer & Trade Arbiter",
+          "iconType": "risk",
+          "verdict": "BUY",
+          "confidence": 97,
+          "reasoning": "អនុម័តសញ្ញា BUY ស្របតាមក្បួនគ្រប់គ្រងទុន! ចម្ងាយ Invalidation SL ($4463.12) ស្ថិតក្រោមទម្រង់ SMC Support រឹងមាំ។ សមាមាត្រ Risk/Reward ខ្ពស់ជាង 1:3.0 ដោយគ្មាន High-Impact News ក្នុងរយៈពេល 30 នាទីបន្ទាប់។",
+          "keyMetric": "Max Risk: 0.85% | Expected R:R: 1:3.2 | SL Buffer: $6.50",
+          "status": "AGREED",
+          "trapAssessment": "🛡️ សុវត្ថិភាពខ្ពស់ - SL ស្ថិតនៅក្រោយតំបន់បោសសម្អាត",
+          "safeToEnter": true,
+          "scanningStatus": {
+            "isScanning": true,
+            "activeTargetKhmer": "កំពុងត្រួតពិនិត្យ 1:3.0 Risk/Reward Ratio & Invalidation SL Protection",
+            "metricsProcessed": "Capital Shield: 100% Active • Max Drawdown Cap: 0.85%",
+            "lastScanTime": 1788521115445,
+            "activityLevel": "HIGH"
+          }
+        }
+      ],
+      "marketTrapRadar": {
+        "trapType": "NONE",
+        "severity": "SAFE",
+        "title": "សភាពទីផ្សារស្អាត (Clean Order Flow - គ្មានអន្ទាក់)",
+        "description": "គ្មានសញ្ញាអន្ទាក់ Bull/Bear Trap ឬ Stop-Hunt កំពុងកើតឡើងឡើយ។ លំហូរទុនស្ថាប័នដំណើរការតាមលក្ខណៈធម្មតា។",
+        "protectionRule": "អាចប្រតិបត្តិការតាមផែនការគ្រប់គ្រងទុនបាន 100% ដោយចាក់សោរ Breakeven នៅពេលចំណេញ 1R។",
+        "targetLiquidityLevel": 4475.62,
+        "detectionTimestamp": 1788521115445
+      },
+      "scanCount": 1
+    },
+    "expiresAt": 1788523815438,
+    "expirationMinutes": 45,
+    "expirationReason": "Buy Limit invalidates in 45m if price does not retest discount Order Block ($4467.22) or rallies straight to TP1.",
+    "expirationReasonKhmer": "Buy Limit នឹងផុតកំណត់ក្នុងរយៈពេល 45 នាទី ប្រសិនបើតម្លៃមិនចុះមក Retest ($4467.22) ឬឡើងហួសដល់ TP1 មុន។",
+    "isBreakevenProtected": false,
+    "antiSlBufferPips": 169,
+    "antiSlBufferDescription": "2.6x ATR Dynamic Cushion + Auto-Breakeven System",
+    "activatedAt": 1788521134620
+  },
+  {
+    "id": "sig_active_1788520338580",
+    "symbol": "XAUUSD",
+    "timeframe": "5m",
+    "action": "BUY",
+    "timestamp": 1788519438580,
+    "candleTime": 1788519438,
+    "entryPrice": 4467.1,
+    "tp1": 4481.72,
+    "tp2": 4496.35,
+    "sl": 4457.35,
+    "riskRewardRatio": "1:3.0",
+    "confidence": 94,
+    "strategy": "SMC 1H+15M+5M Multi-Timeframe Alignment • Institutional Bullish Flow",
+    "confluences": [
+      "1H Macro Trend: Institutional Bullish Order Flow (Price > EMA50)",
+      "15M Structure: Bullish Break of Structure (BOS) Confirmed",
+      "5M Execution: SMC Asian Low Sweep with wick rejection pinbar",
+      "EMA 20 crossing over EMA 50 on expanding volume (+40%)",
+      "RSI Momentum Continuation bounce off 52.0 base"
+    ],
+    "status": "EXPIRED",
+    "mtfAnalysis": {
+      "h1": {
+        "timeframe": "1h",
+        "trend": "BULLISH",
+        "price": 4414.09,
+        "ema20": 4395.17,
+        "ema50": 4392.62,
+        "ema200": 4414.09,
+        "rsi": 89.84,
+        "macdHistogram": 3.144,
+        "smcBias": "NEUTRAL",
+        "structure": "Strong Bullish Expansion (Price > EMA20 > EMA50)"
+      },
+      "m15": {
+        "timeframe": "15m",
+        "trend": "BULLISH",
+        "price": 4411.86,
+        "ema20": 4393.89,
+        "ema50": 4391.99,
+        "ema200": 4411.86,
+        "rsi": 89.35,
+        "macdHistogram": 3.157,
+        "smcBias": "NEUTRAL",
+        "structure": "Strong Bullish Expansion (Price > EMA20 > EMA50)"
+      },
+      "m5": {
+        "timeframe": "5m",
+        "trend": "BULLISH",
+        "price": 4417.33,
+        "ema20": 4399.58,
+        "ema50": 4396.76,
+        "ema200": 4417.33,
+        "rsi": 89.67,
+        "macdHistogram": 2.949,
+        "smcBias": "NEUTRAL",
+        "structure": "Strong Bullish Expansion (Price > EMA20 > EMA50)"
+      },
+      "confluenceStatus": "FULL_ALIGNMENT",
+      "alignedBias": "STRONG_BUY",
+      "confluenceScore": 96,
+      "confluences": [
+        "1H Macro Trend: Institutional Bullish Order Flow (Price > EMA50)",
+        "15M Structure: Bullish Break of Structure (BOS) Confirmed",
+        "5M Execution: Synchronized Precision Entry in direction of 1H Trend"
+      ]
+    },
+    "committeeConsensus": {
+      "action": "STRONG_BUY",
+      "score": 98,
+      "unanimous": true,
+      "voteBreakdown": {
+        "buy": 4,
+        "sell": 0,
+        "hold": 0
+      },
+      "executiveSummary": "សេចក្តីសម្រេចជាឯកច្ឆន្ទ/សំឡេងភាគច្រើនដាច់ខាតពីក្រុម AI ទាំង ៤៖ អនុម័តទិសដៅ BUY លើ XAU/USD ដោយឆ្លងកាត់ការត្រួតពិនិត្យអន្ទាក់ទីផ្សារ 100% ស្អាតស្អំ (SMC, Momentum, Macro DXY)។",
+      "invalidationPrice": 4416.32,
+      "expectedRiskReward": "1:3.2",
+      "timestamp": 1788520338589,
+      "members": [
+        {
+          "id": "smc_ghost",
+          "name": "Agent SMC-Ghost",
+          "roleKhmer": "អ្នកជំនាញ Smart Money & Liquidity (ICT)",
+          "roleEnglish": "SMC Order Flow & Liquidity Architect",
+          "iconType": "smc",
+          "verdict": "BUY",
+          "confidence": 96,
+          "reasoning": "រចនាសម្ព័ន្ធស្ថាប័នបង្កើត Bullish Liquidity Sweep ក្រោម Previous Low រួចរាល់។ កំពុងស្រូបទាញ Liquidity នៅ Discount Zone ($4420.02) ឆ្ពោះទៅកាន់ Unmitigated FVG ខាងលើ។",
+          "keyMetric": "FVG Fill: $4431.32 | Discount Sweep: +$14.20",
+          "status": "AGREED",
+          "trapAssessment": "✅ គ្មានអន្ទាក់ - រចនាសម្ព័ន្ធទិញរបស់ស្ថាប័នពិតប្រាកដ",
+          "safeToEnter": true,
+          "scanningStatus": {
+            "isScanning": true,
+            "activeTargetKhmer": "កំពុងស្កេន 5M/15M Liquidity Pools, Order Blocks & FVG Imbalance",
+            "metricsProcessed": "14 Swings Analyzed • 3 Order Blocks Mapped",
+            "lastScanTime": 1788520338589,
+            "activityLevel": "HIGH"
+          }
+        },
+        {
+          "id": "quant_pulse",
+          "name": "Agent Quant-Pulse",
+          "roleKhmer": "អ្នកជំនាញគណិតសាស្ត្របរិមាណ & Momentum",
+          "roleEnglish": "Quantitative & Momentum Mathematician",
+          "iconType": "quant",
+          "verdict": "BUY",
+          "confidence": 82,
+          "reasoning": "ក្បួនដង្ហើម EMA Ribbon (20 > 50) កំពុងពង្រីកមុំឡើងលើ (Slope +28°)។ MACD Histogram បង្ហាញ Momentum Velocity កើនឡើង ស្របពេល RSI ស្ថិតក្នុងតំបន់សកម្មភាពរឹងមាំ (89.7)។",
+          "keyMetric": "EMA20: $4399.58 | MACD Hist: +2.95 | RSI: 89.7",
+          "status": "AGREED",
+          "trapAssessment": "✅ Momentum ពិតប្រាកដ - គ្មានសញ្ញា Divergence",
+          "safeToEnter": true,
+          "scanningStatus": {
+            "isScanning": true,
+            "activeTargetKhmer": "កំពុងវាស់ Volume Delta, RSI Divergence & Dynamic EMA 20/50 Ribbon",
+            "metricsProcessed": "Vol Delta: Active • ATR Volatility: ±$6.63",
+            "lastScanTime": 1788520338589,
+            "activityLevel": "EXTREME"
+          }
+        },
+        {
+          "id": "macro_aegis",
+          "name": "Agent Macro-Aegis",
+          "roleKhmer": "អ្នកវិភាគម៉ាក្រូសេដ្ឋកិច្ច & សន្ទស្សន៍ DXY / Yields",
+          "roleEnglish": "Macro Intermarket & DXY Strategist",
+          "iconType": "macro",
+          "verdict": "BUY",
+          "confidence": 93,
+          "reasoning": "សន្ទស្សន៍ប្រាក់ដុល្លារ DXY កំពុងរងសម្ពាធធ្លាក់ចុះនៅ Resistance 104.20 ខណៈ US 10-Year Real Yields ធ្លាក់ចុះ 4 bps។ តម្រូវការទិញមាសបម្រុងពីធនាគារកណ្តាល និង Safe-Haven Flows ជួយគាំទ្រតម្លៃ XAUUSD យ៉ាងរឹងមាំ។",
+          "keyMetric": "DXY Index: 103.85 (-0.32%) | US 10Y Yield: 4.18% (-0.05%)",
+          "status": "AGREED",
+          "trapAssessment": "✅ DXY ធ្លាក់ចុះគាំទ្រមាសឡើង - គ្មាន Macro Trap",
+          "safeToEnter": true,
+          "scanningStatus": {
+            "isScanning": true,
+            "activeTargetKhmer": "កំពុងតាមដាន Forex Factory Economic Calendar & DXY Dollar Index",
+            "metricsProcessed": "DXY Correlation: Active • Fed Yield Curve: Synchronized",
+            "lastScanTime": 1788520338589,
+            "activityLevel": "NORMAL"
+          }
+        },
+        {
+          "id": "risk_vanguard",
+          "name": "Agent Risk-Vanguard",
+          "roleKhmer": "ប្រធានគ្រប់គ្រងហានិភ័យ & កាត់សេចក្តី (Risk Arbiter)",
+          "roleEnglish": "Chief Risk Officer & Trade Arbiter",
+          "iconType": "risk",
+          "verdict": "BUY",
+          "confidence": 97,
+          "reasoning": "អនុម័តសញ្ញា BUY ស្របតាមក្បួនគ្រប់គ្រងទុន! ចម្ងាយ Invalidation SL ($4416.32) ស្ថិតក្រោមទម្រង់ SMC Support រឹងមាំ។ សមាមាត្រ Risk/Reward ខ្ពស់ជាង 1:3.0 ដោយគ្មាន High-Impact News ក្នុងរយៈពេល 30 នាទីបន្ទាប់។",
+          "keyMetric": "Max Risk: 0.85% | Expected R:R: 1:3.2 | SL Buffer: $6.50",
+          "status": "AGREED",
+          "trapAssessment": "🛡️ សុវត្ថិភាពខ្ពស់ - SL ស្ថិតនៅក្រោយតំបន់បោសសម្អាត",
+          "safeToEnter": true,
+          "scanningStatus": {
+            "isScanning": true,
+            "activeTargetKhmer": "កំពុងត្រួតពិនិត្យ 1:3.0 Risk/Reward Ratio & Invalidation SL Protection",
+            "metricsProcessed": "Capital Shield: 100% Active • Max Drawdown Cap: 0.85%",
+            "lastScanTime": 1788520338589,
+            "activityLevel": "HIGH"
+          }
+        }
+      ],
+      "marketTrapRadar": {
+        "trapType": "NONE",
+        "severity": "SAFE",
+        "title": "សភាពទីផ្សារស្អាត (Clean Order Flow - គ្មានអន្ទាក់)",
+        "description": "គ្មានសញ្ញាអន្ទាក់ Bull/Bear Trap ឬ Stop-Hunt កំពុងកើតឡើងឡើយ។ លំហូរទុនស្ថាប័នដំណើរការតាមលក្ខណៈធម្មតា។",
+        "protectionRule": "អាចប្រតិបត្តិការតាមផែនការគ្រប់គ្រងទុនបាន 100% ដោយចាក់សោរ Breakeven នៅពេលចំណេញ 1R។",
+        "targetLiquidityLevel": 4428.82,
+        "detectionTimestamp": 1788520338585
+      },
+      "scanCount": 1
+    },
+    "exitPrice": 4469.62,
+    "exitTime": 1788521115440
+  },
+  {
+    "id": "sig_hist_29",
+    "symbol": "XAUUSD",
+    "timeframe": "5m",
+    "action": "BUY",
+    "timestamp": 1788503058579,
+    "candleTime": 1788503058,
+    "entryPrice": 4466.1,
+    "tp1": 4480.72,
+    "tp2": 4495.35,
+    "sl": 4456.35,
+    "riskRewardRatio": "1:3.0",
+    "confidence": 91,
+    "strategy": "SMC Asian Low Sweep + EMA Bullish Cross",
+    "confluences": [
+      "1H Macro Bullish Trend Synchronized with 5M execution",
+      "SMC Asian Low Sweep + EMA Bullish Cross",
+      "Volume Delta expansion with institutional liquidity sweep"
+    ],
+    "status": "EXPIRED",
+    "pnlR": 1.5,
+    "exitPrice": 4469.62,
+    "exitTime": 1788521115441
+  },
+  {
+    "id": "sig_hist_28",
+    "symbol": "XAUUSD",
+    "timeframe": "1h",
+    "action": "BUY",
+    "timestamp": 1788477138579,
+    "candleTime": 1788477138,
+    "entryPrice": 4465.1,
+    "tp1": 4479.72,
+    "tp2": 4494.35,
+    "sl": 4455.35,
+    "riskRewardRatio": "1:3.0",
+    "confidence": 95,
+    "strategy": "1H+15M+5M MTF Alignment • Institutional Bullish Flow",
+    "confluences": [
+      "1H Macro Bullish Trend Synchronized with 5M execution",
+      "1H+15M+5M MTF Alignment • Institutional Bullish Flow",
+      "Volume Delta expansion with institutional liquidity sweep"
+    ],
+    "status": "HIT_TP2",
+    "pnlR": 3,
+    "exitPrice": 4450.07,
+    "exitTime": 1788487938579
+  },
+  {
+    "id": "sig_hist_27",
+    "symbol": "XAUUSD",
+    "timeframe": "5m",
+    "action": "BUY",
+    "timestamp": 1788442578579,
+    "candleTime": 1788442578,
+    "entryPrice": 4460.1,
+    "tp1": 4474.72,
+    "tp2": 4489.35,
+    "sl": 4450.35,
+    "riskRewardRatio": "1:3.0",
+    "confidence": 85,
+    "strategy": "London Open Liquidity Sweep Reversal",
+    "confluences": [
+      "1H Macro Bullish Trend Synchronized with 5M execution",
+      "London Open Liquidity Sweep Reversal",
+      "Volume Delta expansion with institutional liquidity sweep"
+    ],
+    "status": "HIT_SL",
+    "pnlR": -1,
+    "exitPrice": 4406.07,
+    "exitTime": 1788453378579,
+    "slPostMortem": {
+      "signalId": "sig_hist_27",
+      "symbol": "XAUUSD",
+      "lossR": -1,
+      "rootCause": "Aggressive London Open Liquidity Sweep with extended Judas Swing piercing beyond standard 1.5x ATR buffer before resuming true trend.",
+      "rootCauseKhmer": "ស្ថាប័នធំៗបានបង្កើតចលនា Judas Swing បោកបញ្ឆោតនៅពេល London Open ដោយបោសសម្អាត Stop Loss ជ្រៅជាងកម្រិត 1.5x ATR ធម្មតា មុនពេលរត់ឡើងតាមទិសដៅពិត។",
+      "marketAnomalyType": "LIQUIDITY_SWEEP_FAKEOUT",
+      "lessonsLearned": [
+        "រដូវកាលបើកផ្សារ London Open មាន Volatility Spikes ខ្លាំង ដែលត្រូវការ Dynamic ATR Buffer យ៉ាងតិច 1.85x មិនមែន 1.5x ថេរឡើយ។",
+        "មិនត្រូវចូល Trade ភ្លាមៗនៅនាទីដំបូងនៃ London Open ឡើយ ត្រូវរង់ចាំ 15M First Candle Close បញ្ជាក់ Liquidity Absorption។"
+      ],
+      "adaptiveActionsTaken": [
+        "បានបញ្ចូលក្បួន London Open Filter: ពង្រីក Stop Loss Buffer ពី 1.5x ATR ទៅ 1.85x ATR នៅចន្លោះម៉ោង 08:00 - 09:30 AM GMT។",
+        "បន្ថែមលក្ខខណ្ឌតម្រូវឱ្យមាន Pinbar Rejection Confirmation លើ 15M មុនពេលផ្តល់ Signal។"
+      ],
+      "parameterAdjustments": [
+        {
+          "name": "London Open ATR Buffer",
+          "before": "1.50x ATR ($9.75)",
+          "after": "1.85x ATR ($12.00)"
+        },
+        {
+          "name": "Min Entry Confirmation",
+          "before": "5M Market Execution",
+          "after": "15M Candle Close Rejection"
+        },
+        {
+          "name": "SMC Sweep Depth Filter",
+          "before": "Standard Swings",
+          "after": "Institutional Liquidity Voids Only"
+        }
+      ],
+      "evolutionBadge": "London Sweep Hardening v2.4",
+      "modelUpgradeVersion": "AI Core v4.2 - Sweep Resistant"
+    }
+  },
+  {
+    "id": "sig_hist_26",
+    "symbol": "XAUUSD",
+    "timeframe": "15m",
+    "action": "SELL",
+    "timestamp": 1788390738579,
+    "candleTime": 1788390738,
+    "entryPrice": 4464.1,
+    "tp1": 4449.47,
+    "tp2": 4434.85,
+    "sl": 4473.85,
+    "riskRewardRatio": "1:3.0",
+    "confidence": 89,
+    "strategy": "Fair Value Gap (FVG) Fill + Resistance Rejection",
+    "confluences": [
+      "1H Premium Supply Rejection with bearish order flow",
+      "Fair Value Gap (FVG) Fill + Resistance Rejection",
+      "Volume Delta expansion with institutional liquidity sweep"
+    ],
+    "status": "EXPIRED",
+    "pnlR": 1.5,
+    "exitPrice": 4469.62,
+    "exitTime": 1788521115441
+  },
+  {
+    "id": "sig_hist_25",
+    "symbol": "XAUUSD",
+    "timeframe": "5m",
+    "action": "BUY",
+    "timestamp": 1788330258579,
+    "candleTime": 1788330258,
+    "entryPrice": 4461.1,
+    "tp1": 4475.72,
+    "tp2": 4490.35,
+    "sl": 4451.35,
+    "riskRewardRatio": "1:3.0",
+    "confidence": 94,
+    "strategy": "SMC Asian Low Sweep + EMA Bullish Cross",
+    "confluences": [
+      "1H Macro Bullish Trend Synchronized with 5M execution",
+      "SMC Asian Low Sweep + EMA Bullish Cross",
+      "Volume Delta expansion with institutional liquidity sweep"
+    ],
+    "status": "HIT_TP2",
+    "pnlR": 3,
+    "exitPrice": 4446.07,
+    "exitTime": 1788341058579
+  },
+  {
+    "id": "sig_hist_24",
+    "symbol": "XAUUSD",
+    "timeframe": "15m",
+    "action": "BUY",
+    "timestamp": 1788252498579,
+    "candleTime": 1788252498,
+    "entryPrice": 4458.1,
+    "tp1": 4472.72,
+    "tp2": 4487.35,
+    "sl": 4448.35,
+    "riskRewardRatio": "1:3.0",
+    "confidence": 92,
+    "strategy": "Institutional Order Block Demand Rejection",
+    "confluences": [
+      "1H Macro Bullish Trend Synchronized with 5M execution",
+      "Institutional Order Block Demand Rejection",
+      "Volume Delta expansion with institutional liquidity sweep"
+    ],
+    "status": "HIT_TP2",
+    "pnlR": 3,
+    "exitPrice": 4443.07,
+    "exitTime": 1788263298579
+  },
+  {
+    "id": "sig_hist_23",
+    "symbol": "XAUUSD",
+    "timeframe": "5m",
+    "action": "SELL",
+    "timestamp": 1788183378579,
+    "candleTime": 1788183378,
+    "entryPrice": 4462.1,
+    "tp1": 4447.47,
+    "tp2": 4432.85,
+    "sl": 4471.85,
+    "riskRewardRatio": "1:3.0",
+    "confidence": 82,
+    "strategy": "Premium Supply Zone Sweep at Session High",
+    "confluences": [
+      "1H Premium Supply Rejection with bearish order flow",
+      "Premium Supply Zone Sweep at Session High",
+      "Volume Delta expansion with institutional liquidity sweep"
+    ],
+    "status": "HIT_SL",
+    "pnlR": -1,
+    "exitPrice": 4427.57,
+    "exitTime": 1788194178579,
+    "slPostMortem": {
+      "signalId": "sig_hist_23",
+      "symbol": "XAUUSD",
+      "lossR": -1,
+      "rootCause": "Unexpected sudden US Dollar Index (DXY) selloff triggered instant inverse safe-haven bid on Gold, violently piercing Supply Zone.",
+      "rootCauseKhmer": "សន្ទស្សន៍ប្រាក់ដុល្លារ DXY បានដាំក្បាលចុះភ្លាមៗដោយសារព័ត៌មានម៉ាក្រូសេដ្ឋកិច្ច ធ្វើឱ្យមាន Safe-Haven Flow សម្រុកទិញមាសបំបែកតំបន់ Supply Zone។",
+      "marketAnomalyType": "USD_NEWS_SHOCK",
+      "lessonsLearned": [
+        "ការផ្លាស់ប្តូរទិសដៅ DXY លឿនពេក អាចបណ្តាលឱ្យតំបន់ Technical Resistance ត្រូវគេទម្លុះយ៉ាងងាយ។",
+        "ត្រូវត្រួតពិនិត្យ DXY Momentum Correlation កម្រិត Real-time និងដាក់ News Shield យ៉ាងតិច 35 នាទីមុនព្រឹត្តិការណ៍។"
+      ],
+      "adaptiveActionsTaken": [
+        "បានភ្ជាប់ DXY Real-Time Velocity Guard: ប្រសិនបើ DXY ធ្លាក់ចុះលើសពី 0.25% ក្នុងរយៈពេល 15 នាទី នោះប្រព័ន្ធនឹងបដិសេធ Signal SELL លើ Gold ភ្លាមៗ។",
+        "ពង្រឹង Forex Factory News Shield ពី 15 នាទី ទៅ 35 នាទី មុនទិន្នន័យម៉ាក្រូសេដ្ឋកិច្ច USD ចេញ។"
+      ],
+      "parameterAdjustments": [
+        {
+          "name": "DXY Inverse Correlation Filter",
+          "before": "Static Daily Review",
+          "after": "15M Dynamic Delta (-0.25% Thresh)"
+        },
+        {
+          "name": "News Shield Window",
+          "before": "15 Mins Pre-News",
+          "after": "35 Mins Pre-News Lockout"
+        },
+        {
+          "name": "Max Risk per News Day",
+          "before": "1.50%",
+          "after": "0.75% High-Defense"
+        }
+      ],
+      "evolutionBadge": "Macro DXY Shield v3.1",
+      "modelUpgradeVersion": "AI Core v4.3 - Macro Shielded"
+    }
+  },
+  {
+    "id": "sig_hist_22",
+    "symbol": "XAUUSD",
+    "timeframe": "1h",
+    "action": "BUY",
+    "timestamp": 1788105618579,
+    "candleTime": 1788105618,
+    "entryPrice": 4453.1,
+    "tp1": 4467.72,
+    "tp2": 4482.35,
+    "sl": 4443.35,
+    "riskRewardRatio": "1:3.0",
+    "confidence": 96,
+    "strategy": "1H+15M+5M MTF Alignment • Institutional Bullish Flow",
+    "confluences": [
+      "1H Macro Bullish Trend Synchronized with 5M execution",
+      "1H+15M+5M MTF Alignment • Institutional Bullish Flow",
+      "Volume Delta expansion with institutional liquidity sweep"
+    ],
+    "status": "HIT_TP2",
+    "pnlR": 3,
+    "exitPrice": 4438.07,
+    "exitTime": 1788116418579
+  },
+  {
+    "id": "sig_hist_21",
+    "symbol": "XAUUSD",
+    "timeframe": "5m",
+    "action": "SELL",
+    "timestamp": 1788010578579,
+    "candleTime": 1788010578,
+    "entryPrice": 4459.1,
+    "tp1": 4444.47,
+    "tp2": 4429.85,
+    "sl": 4468.85,
+    "riskRewardRatio": "1:3.0",
+    "confidence": 88,
+    "strategy": "Break of Structure (BOS) Bearish Retest",
+    "confluences": [
+      "1H Premium Supply Rejection with bearish order flow",
+      "Break of Structure (BOS) Bearish Retest",
+      "Volume Delta expansion with institutional liquidity sweep"
+    ],
+    "status": "EXPIRED",
+    "pnlR": 1.5,
+    "exitPrice": 4469.62,
+    "exitTime": 1788521115441
+  },
+  {
+    "id": "sig_hist_20",
+    "symbol": "XAUUSD",
+    "timeframe": "15m",
+    "action": "BUY",
+    "timestamp": 1787932818579,
+    "candleTime": 1787932818,
+    "entryPrice": 4456.1,
+    "tp1": 4470.72,
+    "tp2": 4485.35,
+    "sl": 4446.35,
+    "riskRewardRatio": "1:3.0",
+    "confidence": 95,
+    "strategy": "London Open Liquidity Sweep Reversal",
+    "confluences": [
+      "1H Macro Bullish Trend Synchronized with 5M execution",
+      "London Open Liquidity Sweep Reversal",
+      "Volume Delta expansion with institutional liquidity sweep"
+    ],
+    "status": "HIT_TP2",
+    "pnlR": 3,
+    "exitPrice": 4441.07,
+    "exitTime": 1787943618579
+  },
+  {
+    "id": "sig_hist_19",
+    "symbol": "XAUUSD",
+    "timeframe": "5m",
+    "action": "BUY",
+    "timestamp": 1787837778579,
+    "candleTime": 1787837778,
+    "entryPrice": 4448.1,
+    "tp1": 4462.72,
+    "tp2": 4477.35,
+    "sl": 4438.35,
+    "riskRewardRatio": "1:3.0",
+    "confidence": 90,
+    "strategy": "SMC Asian Low Sweep + EMA Bullish Cross",
+    "confluences": [
+      "1H Macro Bullish Trend Synchronized with 5M execution",
+      "SMC Asian Low Sweep + EMA Bullish Cross",
+      "Volume Delta expansion with institutional liquidity sweep"
+    ],
+    "status": "EXPIRED",
+    "pnlR": 1.5,
+    "exitPrice": 4469.62,
+    "exitTime": 1788521115442
+  },
+  {
+    "id": "sig_hist_18",
+    "symbol": "XAUUSD",
+    "timeframe": "15m",
+    "action": "BUY",
+    "timestamp": 1787768658579,
+    "candleTime": 1787768658,
+    "entryPrice": 4452.1,
+    "tp1": 4466.72,
+    "tp2": 4481.35,
+    "sl": 4442.35,
+    "riskRewardRatio": "1:3.0",
+    "confidence": 93,
+    "strategy": "Institutional Order Block Demand Rejection",
+    "confluences": [
+      "1H Macro Bullish Trend Synchronized with 5M execution",
+      "Institutional Order Block Demand Rejection",
+      "Volume Delta expansion with institutional liquidity sweep"
+    ],
+    "status": "HIT_TP2",
+    "pnlR": 3,
+    "exitPrice": 4437.07,
+    "exitTime": 1787779458579
+  },
+  {
+    "id": "sig_hist_17",
+    "symbol": "XAUUSD",
+    "timeframe": "5m",
+    "action": "SELL",
+    "timestamp": 1787673618579,
+    "candleTime": 1787673618,
+    "entryPrice": 4445.1,
+    "tp1": 4430.47,
+    "tp2": 4415.85,
+    "sl": 4454.85,
+    "riskRewardRatio": "1:3.0",
+    "confidence": 86,
+    "strategy": "1H+15M+5M MTF Alignment • Bearish Short Distribution",
+    "confluences": [
+      "1H Premium Supply Rejection with bearish order flow",
+      "1H+15M+5M MTF Alignment • Bearish Short Distribution",
+      "Volume Delta expansion with institutional liquidity sweep"
+    ],
+    "status": "HIT_SL",
+    "pnlR": -1,
+    "exitPrice": 4410.57,
+    "exitTime": 1787684418579,
+    "slPostMortem": {
+      "signalId": "sig_hist_17",
+      "symbol": "XAUUSD",
+      "lossR": -1,
+      "rootCause": "Unexpected sudden US Dollar Index (DXY) selloff triggered instant inverse safe-haven bid on Gold, violently piercing Supply Zone.",
+      "rootCauseKhmer": "សន្ទស្សន៍ប្រាក់ដុល្លារ DXY បានដាំក្បាលចុះភ្លាមៗដោយសារព័ត៌មានម៉ាក្រូសេដ្ឋកិច្ច ធ្វើឱ្យមាន Safe-Haven Flow សម្រុកទិញមាសបំបែកតំបន់ Supply Zone។",
+      "marketAnomalyType": "USD_NEWS_SHOCK",
+      "lessonsLearned": [
+        "ការផ្លាស់ប្តូរទិសដៅ DXY លឿនពេក អាចបណ្តាលឱ្យតំបន់ Technical Resistance ត្រូវគេទម្លុះយ៉ាងងាយ។",
+        "ត្រូវត្រួតពិនិត្យ DXY Momentum Correlation កម្រិត Real-time និងដាក់ News Shield យ៉ាងតិច 35 នាទីមុនព្រឹត្តិការណ៍។"
+      ],
+      "adaptiveActionsTaken": [
+        "បានភ្ជាប់ DXY Real-Time Velocity Guard: ប្រសិនបើ DXY ធ្លាក់ចុះលើសពី 0.25% ក្នុងរយៈពេល 15 នាទី នោះប្រព័ន្ធនឹងបដិសេធ Signal SELL លើ Gold ភ្លាមៗ។",
+        "ពង្រឹង Forex Factory News Shield ពី 15 នាទី ទៅ 35 នាទី មុនទិន្នន័យម៉ាក្រូសេដ្ឋកិច្ច USD ចេញ។"
+      ],
+      "parameterAdjustments": [
+        {
+          "name": "DXY Inverse Correlation Filter",
+          "before": "Static Daily Review",
+          "after": "15M Dynamic Delta (-0.25% Thresh)"
+        },
+        {
+          "name": "News Shield Window",
+          "before": "15 Mins Pre-News",
+          "after": "35 Mins Pre-News Lockout"
+        },
+        {
+          "name": "Max Risk per News Day",
+          "before": "1.50%",
+          "after": "0.75% High-Defense"
+        }
+      ],
+      "evolutionBadge": "Macro DXY Shield v3.1",
+      "modelUpgradeVersion": "AI Core v4.3 - Macro Shielded"
+    }
+  },
+  {
+    "id": "sig_hist_16",
+    "symbol": "XAUUSD",
+    "timeframe": "1h",
+    "action": "SELL",
+    "timestamp": 1787569938579,
+    "candleTime": 1787569938,
+    "entryPrice": 4449.1,
+    "tp1": 4434.47,
+    "tp2": 4419.85,
+    "sl": 4458.85,
+    "riskRewardRatio": "1:3.0",
+    "confidence": 89,
+    "strategy": "Fair Value Gap (FVG) Fill + Resistance Rejection",
+    "confluences": [
+      "1H Premium Supply Rejection with bearish order flow",
+      "Fair Value Gap (FVG) Fill + Resistance Rejection",
+      "Volume Delta expansion with institutional liquidity sweep"
+    ],
+    "status": "HIT_TP2",
+    "pnlR": 3,
+    "exitPrice": 4375.57,
+    "exitTime": 1787580738579
+  },
+  {
+    "id": "sig_hist_15",
+    "symbol": "XAUUSD",
+    "timeframe": "5m",
+    "action": "BUY",
+    "timestamp": 1787474898579,
+    "candleTime": 1787474898,
+    "entryPrice": 4443.1,
+    "tp1": 4457.72,
+    "tp2": 4472.35,
+    "sl": 4433.35,
+    "riskRewardRatio": "1:3.0",
+    "confidence": 94,
+    "strategy": "SMC Asian Low Sweep + Bullish Order Block",
+    "confluences": [
+      "1H Macro Bullish Trend Synchronized with 5M execution",
+      "SMC Asian Low Sweep + Bullish Order Block",
+      "Volume Delta expansion with institutional liquidity sweep"
+    ],
+    "status": "HIT_TP2",
+    "pnlR": 3,
+    "exitPrice": 4428.07,
+    "exitTime": 1787485698579
+  },
+  {
+    "id": "sig_hist_14",
+    "symbol": "XAUUSD",
+    "timeframe": "15m",
+    "action": "BUY",
+    "timestamp": 1787397138579,
+    "candleTime": 1787397138,
+    "entryPrice": 4432.1,
+    "tp1": 4446.72,
+    "tp2": 4461.35,
+    "sl": 4422.35,
+    "riskRewardRatio": "1:3.0",
+    "confidence": 91,
+    "strategy": "London Open Liquidity Sweep Reversal",
+    "confluences": [
+      "1H Macro Bullish Trend Synchronized with 5M execution",
+      "London Open Liquidity Sweep Reversal",
+      "Volume Delta expansion with institutional liquidity sweep"
+    ],
+    "status": "HIT_TP2",
+    "pnlR": 3,
+    "exitPrice": 4417.07,
+    "exitTime": 1788520339487
+  },
+  {
+    "id": "sig_hist_13",
+    "symbol": "XAUUSD",
+    "timeframe": "5m",
+    "action": "BUY",
+    "timestamp": 1787293458579,
+    "candleTime": 1787293458,
+    "entryPrice": 4438.1,
+    "tp1": 4452.72,
+    "tp2": 4467.35,
+    "sl": 4428.35,
+    "riskRewardRatio": "1:3.0",
+    "confidence": 85,
+    "strategy": "Break of Structure (BOS) Bullish Continuation",
+    "confluences": [
+      "1H Macro Bullish Trend Synchronized with 5M execution",
+      "Break of Structure (BOS) Bullish Continuation",
+      "Volume Delta expansion with institutional liquidity sweep"
+    ],
+    "status": "HIT_SL",
+    "pnlR": -1,
+    "exitPrice": 4384.07,
+    "exitTime": 1787304258579,
+    "slPostMortem": {
+      "signalId": "sig_hist_13",
+      "symbol": "XAUUSD",
+      "lossR": -1,
+      "rootCause": "Lower timeframe chop with internal range liquidity inducement, violating 5M structure before higher timeframe 1H order block mitigated.",
+      "rootCauseKhmer": "ទីផ្សារស្ថិតក្នុងចន្លោះ Compression Range 5M បង្កើត False Breakout មុនពេលតម្លៃចុះមកដល់ 1H Bullish Order Block ពិតប្រាកដ។",
+      "marketAnomalyType": "LOWER_TF_CHOPPINESS",
+      "lessonsLearned": [
+        "ការចូល Trade ក្នុង Lower Timeframe 5M នៅពេល 1H មិនទាន់ប៉ះ Point of Interest (POI) បង្កើនហានិភ័យ Inducement Fakeout។",
+        "ត្រូវកំណត់ឱ្យ Confluence Score រវាង 1H + 15M + 5M យ៉ាងតិច 90% ឡើងទៅ ទើបអនុញ្ញាតឱ្យបញ្ចេញ Signal។"
+      ],
+      "adaptiveActionsTaken": [
+        "ដំឡើងកម្រិតពិន្ទុ Multi-Timeframe Confluence Threshold ពី 75% ទៅ 90% ដើម្បីលុបបំបាត់ Signal ក្នុងតំបន់ Inducement។",
+        "កែសម្រួលប្រព័ន្ធ SMC-Ghost ឱ្យស្គាល់ Internal Range Fakeouts ដោយស្វ័យប្រវត្តិ។"
+      ],
+      "parameterAdjustments": [
+        {
+          "name": "Min MTF Alignment Score",
+          "before": "75%",
+          "after": "90% (Strict Mode)"
+        },
+        {
+          "name": "POI Proximity Requirement",
+          "before": "Within $8.00",
+          "after": "Within $3.50 of Major OB"
+        },
+        {
+          "name": "Volume Delta Confirmation",
+          "before": "1.2x Average",
+          "after": "2.0x Institutional Absorption"
+        }
+      ],
+      "evolutionBadge": "Anti-Inducement Engine v2.8",
+      "modelUpgradeVersion": "AI Core v4.4 - Inducement Immune"
+    }
+  },
+  {
+    "id": "sig_hist_12",
+    "symbol": "XAUUSD",
+    "timeframe": "1h",
+    "action": "BUY",
+    "timestamp": 1787181138579,
+    "candleTime": 1787181138,
+    "entryPrice": 4426.1,
+    "tp1": 4440.72,
+    "tp2": 4455.35,
+    "sl": 4416.35,
+    "riskRewardRatio": "1:3.0",
+    "confidence": 96,
+    "strategy": "Institutional Order Block Demand Rejection",
+    "confluences": [
+      "1H Macro Bullish Trend Synchronized with 5M execution",
+      "Institutional Order Block Demand Rejection",
+      "Volume Delta expansion with institutional liquidity sweep"
+    ],
+    "status": "HIT_TP2",
+    "pnlR": 3,
+    "exitPrice": 4411.07,
+    "exitTime": 1787191938579
+  },
+  {
+    "id": "sig_hist_11",
+    "symbol": "XAUUSD",
+    "timeframe": "5m",
+    "action": "SELL",
+    "timestamp": 1787068818579,
+    "candleTime": 1787068818,
+    "entryPrice": 4435.1,
+    "tp1": 4420.47,
+    "tp2": 4405.85,
+    "sl": 4444.85,
+    "riskRewardRatio": "1:3.0",
+    "confidence": 90,
+    "strategy": "Fair Value Gap (FVG) Fill + Resistance Rejection",
+    "confluences": [
+      "1H Premium Supply Rejection with bearish order flow",
+      "Fair Value Gap (FVG) Fill + Resistance Rejection",
+      "Volume Delta expansion with institutional liquidity sweep"
+    ],
+    "status": "HIT_TP2",
+    "pnlR": 3,
+    "exitPrice": 4361.57,
+    "exitTime": 1787079618579
+  },
+  {
+    "id": "sig_hist_10",
+    "symbol": "XAUUSD",
+    "timeframe": "15m",
+    "action": "BUY",
+    "timestamp": 1786965138579,
+    "candleTime": 1786965138,
+    "entryPrice": 4429.1,
+    "tp1": 4443.72,
+    "tp2": 4458.35,
+    "sl": 4419.35,
+    "riskRewardRatio": "1:3.0",
+    "confidence": 89,
+    "strategy": "SMC Asian Low Sweep + EMA Bullish Cross",
+    "confluences": [
+      "1H Macro Bullish Trend Synchronized with 5M execution",
+      "SMC Asian Low Sweep + EMA Bullish Cross",
+      "Volume Delta expansion with institutional liquidity sweep"
+    ],
+    "status": "HIT_TP2",
+    "pnlR": 3,
+    "exitPrice": 4414.07,
+    "exitTime": 1788520339490
+  },
+  {
+    "id": "sig_hist_09",
+    "symbol": "XAUUSD",
+    "timeframe": "5m",
+    "action": "BUY",
+    "timestamp": 1786861458579,
+    "candleTime": 1786861458,
+    "entryPrice": 4422.1,
+    "tp1": 4436.72,
+    "tp2": 4451.35,
+    "sl": 4412.35,
+    "riskRewardRatio": "1:3.0",
+    "confidence": 93,
+    "strategy": "1H+15M+5M MTF Alignment • Institutional Bullish Flow",
+    "confluences": [
+      "1H Macro Bullish Trend Synchronized with 5M execution",
+      "1H+15M+5M MTF Alignment • Institutional Bullish Flow",
+      "Volume Delta expansion with institutional liquidity sweep"
+    ],
+    "status": "HIT_TP2",
+    "pnlR": 3,
+    "exitPrice": 4407.07,
+    "exitTime": 1786872258579
+  },
+  {
+    "id": "sig_hist_08",
+    "symbol": "XAUUSD",
+    "timeframe": "15m",
+    "action": "SELL",
+    "timestamp": 1786792338579,
+    "candleTime": 1786792338,
+    "entryPrice": 4415.1,
+    "tp1": 4400.47,
+    "tp2": 4385.85,
+    "sl": 4424.85,
+    "riskRewardRatio": "1:3.0",
+    "confidence": 83,
+    "strategy": "Premium Supply Zone Sweep at Session High",
+    "confluences": [
+      "1H Premium Supply Rejection with bearish order flow",
+      "Premium Supply Zone Sweep at Session High",
+      "Volume Delta expansion with institutional liquidity sweep"
+    ],
+    "status": "HIT_SL",
+    "pnlR": -1,
+    "exitPrice": 4380.57,
+    "exitTime": 1786803138579,
+    "slPostMortem": {
+      "signalId": "sig_hist_08",
+      "symbol": "XAUUSD",
+      "lossR": -1,
+      "rootCause": "Unexpected sudden US Dollar Index (DXY) selloff triggered instant inverse safe-haven bid on Gold, violently piercing Supply Zone.",
+      "rootCauseKhmer": "សន្ទស្សន៍ប្រាក់ដុល្លារ DXY បានដាំក្បាលចុះភ្លាមៗដោយសារព័ត៌មានម៉ាក្រូសេដ្ឋកិច្ច ធ្វើឱ្យមាន Safe-Haven Flow សម្រុកទិញមាសបំបែកតំបន់ Supply Zone។",
+      "marketAnomalyType": "USD_NEWS_SHOCK",
+      "lessonsLearned": [
+        "ការផ្លាស់ប្តូរទិសដៅ DXY លឿនពេក អាចបណ្តាលឱ្យតំបន់ Technical Resistance ត្រូវគេទម្លុះយ៉ាងងាយ។",
+        "ត្រូវត្រួតពិនិត្យ DXY Momentum Correlation កម្រិត Real-time និងដាក់ News Shield យ៉ាងតិច 35 នាទីមុនព្រឹត្តិការណ៍។"
+      ],
+      "adaptiveActionsTaken": [
+        "បានភ្ជាប់ DXY Real-Time Velocity Guard: ប្រសិនបើ DXY ធ្លាក់ចុះលើសពី 0.25% ក្នុងរយៈពេល 15 នាទី នោះប្រព័ន្ធនឹងបដិសេធ Signal SELL លើ Gold ភ្លាមៗ។",
+        "ពង្រឹង Forex Factory News Shield ពី 15 នាទី ទៅ 35 នាទី មុនទិន្នន័យម៉ាក្រូសេដ្ឋកិច្ច USD ចេញ។"
+      ],
+      "parameterAdjustments": [
+        {
+          "name": "DXY Inverse Correlation Filter",
+          "before": "Static Daily Review",
+          "after": "15M Dynamic Delta (-0.25% Thresh)"
+        },
+        {
+          "name": "News Shield Window",
+          "before": "15 Mins Pre-News",
+          "after": "35 Mins Pre-News Lockout"
+        },
+        {
+          "name": "Max Risk per News Day",
+          "before": "1.50%",
+          "after": "0.75% High-Defense"
+        }
+      ],
+      "evolutionBadge": "Macro DXY Shield v3.1",
+      "modelUpgradeVersion": "AI Core v4.3 - Macro Shielded"
+    }
+  },
+  {
+    "id": "sig_hist_07",
+    "symbol": "XAUUSD",
+    "timeframe": "5m",
+    "action": "SELL",
+    "timestamp": 1786680018579,
+    "candleTime": 1786680018,
+    "entryPrice": 4409.1,
+    "tp1": 4394.47,
+    "tp2": 4379.85,
+    "sl": 4418.85,
+    "riskRewardRatio": "1:3.0",
+    "confidence": 87,
+    "strategy": "Break of Structure (BOS) Bearish Retest",
+    "confluences": [
+      "1H Premium Supply Rejection with bearish order flow",
+      "Break of Structure (BOS) Bearish Retest",
+      "Volume Delta expansion with institutional liquidity sweep"
+    ],
+    "status": "EXPIRED",
+    "pnlR": 1.5,
+    "exitPrice": 4469.62,
+    "exitTime": 1788521115442
+  },
+  {
+    "id": "sig_hist_06",
+    "symbol": "XAUUSD",
+    "timeframe": "1h",
+    "action": "BUY",
+    "timestamp": 1786584978579,
+    "candleTime": 1786584978,
+    "entryPrice": 4413.1,
+    "tp1": 4427.72,
+    "tp2": 4442.35,
+    "sl": 4403.35,
+    "riskRewardRatio": "1:3.0",
+    "confidence": 91,
+    "strategy": "Institutional Order Block Demand Rejection",
+    "confluences": [
+      "1H Macro Bullish Trend Synchronized with 5M execution",
+      "Institutional Order Block Demand Rejection",
+      "Volume Delta expansion with institutional liquidity sweep"
+    ],
+    "status": "HIT_TP2",
+    "pnlR": 3,
+    "exitPrice": 4398.07,
+    "exitTime": 1786595778579
+  },
+  {
+    "id": "sig_hist_05",
+    "symbol": "XAUUSD",
+    "timeframe": "5m",
+    "action": "BUY",
+    "timestamp": 1786464018579,
+    "candleTime": 1786464018,
+    "entryPrice": 4405.1,
+    "tp1": 4419.72,
+    "tp2": 4434.35,
+    "sl": 4395.35,
+    "riskRewardRatio": "1:3.0",
+    "confidence": 95,
+    "strategy": "SMC Asian Low Sweep + EMA Bullish Cross",
+    "confluences": [
+      "1H Macro Bullish Trend Synchronized with 5M execution",
+      "SMC Asian Low Sweep + EMA Bullish Cross",
+      "Volume Delta expansion with institutional liquidity sweep"
+    ],
+    "status": "HIT_TP2",
+    "pnlR": 3,
+    "exitPrice": 4390.07,
+    "exitTime": 1786474818579
+  },
+  {
+    "id": "sig_hist_04",
+    "symbol": "XAUUSD",
+    "timeframe": "15m",
+    "action": "BUY",
+    "timestamp": 1786351698579,
+    "candleTime": 1786351698,
+    "entryPrice": 4395.1,
+    "tp1": 4409.72,
+    "tp2": 4424.35,
+    "sl": 4385.35,
+    "riskRewardRatio": "1:3.0",
+    "confidence": 84,
+    "strategy": "London Open Liquidity Sweep Reversal",
+    "confluences": [
+      "1H Macro Bullish Trend Synchronized with 5M execution",
+      "London Open Liquidity Sweep Reversal",
+      "Volume Delta expansion with institutional liquidity sweep"
+    ],
+    "status": "HIT_SL",
+    "pnlR": -1,
+    "exitPrice": 4341.07,
+    "exitTime": 1786362498579,
+    "slPostMortem": {
+      "signalId": "sig_hist_04",
+      "symbol": "XAUUSD",
+      "lossR": -1,
+      "rootCause": "Aggressive London Open Liquidity Sweep with extended Judas Swing piercing beyond standard 1.5x ATR buffer before resuming true trend.",
+      "rootCauseKhmer": "ស្ថាប័នធំៗបានបង្កើតចលនា Judas Swing បោកបញ្ឆោតនៅពេល London Open ដោយបោសសម្អាត Stop Loss ជ្រៅជាងកម្រិត 1.5x ATR ធម្មតា មុនពេលរត់ឡើងតាមទិសដៅពិត។",
+      "marketAnomalyType": "LIQUIDITY_SWEEP_FAKEOUT",
+      "lessonsLearned": [
+        "រដូវកាលបើកផ្សារ London Open មាន Volatility Spikes ខ្លាំង ដែលត្រូវការ Dynamic ATR Buffer យ៉ាងតិច 1.85x មិនមែន 1.5x ថេរឡើយ។",
+        "មិនត្រូវចូល Trade ភ្លាមៗនៅនាទីដំបូងនៃ London Open ឡើយ ត្រូវរង់ចាំ 15M First Candle Close បញ្ជាក់ Liquidity Absorption។"
+      ],
+      "adaptiveActionsTaken": [
+        "បានបញ្ចូលក្បួន London Open Filter: ពង្រីក Stop Loss Buffer ពី 1.5x ATR ទៅ 1.85x ATR នៅចន្លោះម៉ោង 08:00 - 09:30 AM GMT។",
+        "បន្ថែមលក្ខខណ្ឌតម្រូវឱ្យមាន Pinbar Rejection Confirmation លើ 15M មុនពេលផ្តល់ Signal។"
+      ],
+      "parameterAdjustments": [
+        {
+          "name": "London Open ATR Buffer",
+          "before": "1.50x ATR ($9.75)",
+          "after": "1.85x ATR ($12.00)"
+        },
+        {
+          "name": "Min Entry Confirmation",
+          "before": "5M Market Execution",
+          "after": "15M Candle Close Rejection"
+        },
+        {
+          "name": "SMC Sweep Depth Filter",
+          "before": "Standard Swings",
+          "after": "Institutional Liquidity Voids Only"
+        }
+      ],
+      "evolutionBadge": "London Sweep Hardening v2.4",
+      "modelUpgradeVersion": "AI Core v4.2 - Sweep Resistant"
+    }
+  },
+  {
+    "id": "sig_hist_03",
+    "symbol": "XAUUSD",
+    "timeframe": "5m",
+    "action": "SELL",
+    "timestamp": 1786273938579,
+    "candleTime": 1786273938,
+    "entryPrice": 4399.1,
+    "tp1": 4384.47,
+    "tp2": 4369.85,
+    "sl": 4408.85,
+    "riskRewardRatio": "1:3.0",
+    "confidence": 88,
+    "strategy": "Fair Value Gap (FVG) Fill + Resistance Rejection",
+    "confluences": [
+      "1H Premium Supply Rejection with bearish order flow",
+      "Fair Value Gap (FVG) Fill + Resistance Rejection",
+      "Volume Delta expansion with institutional liquidity sweep"
+    ],
+    "status": "HIT_TP2",
+    "pnlR": 3,
+    "exitPrice": 4325.57,
+    "exitTime": 1786284738579
+  },
+  {
+    "id": "sig_hist_02",
+    "symbol": "XAUUSD",
+    "timeframe": "15m",
+    "action": "BUY",
+    "timestamp": 1786170258579,
+    "candleTime": 1786170258,
+    "entryPrice": 4388.6,
+    "tp1": 4403.22,
+    "tp2": 4417.85,
+    "sl": 4378.85,
+    "riskRewardRatio": "1:3.0",
+    "confidence": 92,
+    "strategy": "1H+15M+5M MTF Alignment • Institutional Bullish Flow",
+    "confluences": [
+      "1H Macro Bullish Trend Synchronized with 5M execution",
+      "1H+15M+5M MTF Alignment • Institutional Bullish Flow",
+      "Volume Delta expansion with institutional liquidity sweep"
+    ],
+    "status": "HIT_TP2",
+    "pnlR": 3,
+    "exitPrice": 4373.57,
+    "exitTime": 1788520339491
+  },
+  {
+    "id": "sig_hist_01",
+    "symbol": "XAUUSD",
+    "timeframe": "1h",
+    "action": "BUY",
+    "timestamp": 1786057938579,
+    "candleTime": 1786057938,
+    "entryPrice": 4382.1,
+    "tp1": 4396.72,
+    "tp2": 4411.35,
+    "sl": 4372.35,
+    "riskRewardRatio": "1:3.0",
+    "confidence": 94,
+    "strategy": "SMC Asian Low Sweep + Bullish Order Block",
+    "confluences": [
+      "1H Macro Bullish Trend Synchronized with 5M execution",
+      "SMC Asian Low Sweep + Bullish Order Block",
+      "Volume Delta expansion with institutional liquidity sweep"
+    ],
+    "status": "HIT_TP2",
+    "pnlR": 3,
+    "exitPrice": 4367.07,
+    "exitTime": 1786068738579
+  }
+]
